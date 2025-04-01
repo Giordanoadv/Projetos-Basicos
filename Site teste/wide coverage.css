@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif; 
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+
+
+.buttom-header{
+    width: 83;
+    height: 21;
+    /* fonts.google.com poppins 700px, 500px, 400px */
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    text-align: center;
+    color: #17233D;
+    border: none;    
+    background: none;
+    padding: 5px;
+    margin-top: 47px;
+    margin-left: 42px;
+    cursor: pointer;
+   
+ 
+
+}
+
+.buttom-singup{
+    margin-left: 32px;
+    margin-top: 32px;    
+    font-family: 'Poppins';
+    width: 124px;
+    height: 51px;
+    border: none;
+    border-radius: 15px;
+    background: #6FBF44;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+
+}
+
+
+.img{
+    width: 595.18px;
+    padding-top: 246px;
+    padding-left: 121px;    
+    display: block;
+    flex-direction: row;
+    padding: 25px;
+}
+
+h1{
+    font-weight: 700px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    width: 582px;
+    height: 164px;
+    color: #161A49;
+    margin-top: 100px;
+    margin-left: 35px;
+
+    
+    
+    
+    
+
+}
+    
+
+p {  
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-left: 35px;
+}
+
+#learnmore{
+    margin-left: 32px;
+    background: none;
+    background: transparent;
+    font-family: 'Poppins';
+    font-weight: bold, 500px; 
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    border: none;
+    margin-top: 12px;
+
+}
+
+.container{
+    display: flex;
+}
