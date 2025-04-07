@@ -1,0 +1,28 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+
+}
+
+div{
+
+    height: 200px;
+    width: 200px;
+    background: blue;
+    
+}
+/* e um operador lógico o and=e se um deles não tiver um "e" não funciona */
+@media screen and (max-width: 600px) and (orientation: landscape){
+     div{
+        background: red;
+
+
+     }
+}
+
+/* o @media é a responsividade para celular, usa-se max-width usado quando se passar de um determinado bloco de px o que estiver dentro da div muda no exemplo acima fica em vermelho se você arrastar a pág web ou diminuir para uma tela de celular  */
+/* o min width usa-se a mesma lógica porém ao contrário */
+
+/* geralmente você irá usar @media screen and max ou min - wdith ou apenas @media*/
+/* o print geralmente é usado para impressão ou quando alguém quiser imprimir sua página e sairá com sua marca d'agua */

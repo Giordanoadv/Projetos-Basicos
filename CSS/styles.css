@@ -1,0 +1,33 @@
+/* o asterisco + {} significa que ele vai aplicar essas configurações para tudo */
+/* o id é único igual rg e cpf vc usa harshtag*/
+/* o class é igual um cep, pode ser repetido diferente do id você usa ponto .  */
+
+
+
+#titulo{
+    color: crimson;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#parágrafo{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#botao{
+    background-color: chartreuse;
+}
+
+.texto{
+    color: blueviolet;
+}
+
+.botao{
+    color: aquamarine;
+}
+
+/* pode fazer assim também */
+
+.texto .botao, p {color: beige}

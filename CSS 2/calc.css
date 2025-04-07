@@ -1,0 +1,13 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+/* ferramenta calc, você calcula o tamanho da tela menos alguma coisa ou mais alguma coisa pode determinar também margin, padding , pode multiplicar dividir, somar subtrair */
+    height: calc(100vh - 200px);
+    width: calc(50vh + 200px) / 2;
+    background-color: crimson;
+}

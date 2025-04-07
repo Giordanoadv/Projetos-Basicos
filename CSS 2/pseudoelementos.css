@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+     border: 1px, solid, red;
+     color: blue;
+}
+
+imput::placeholder{
+
+    color: hotpink;
+}
+
+p{
+    color: blue;
+
+}
+
+p::first-letter{
+    color: crimson;
+}
+
+a{
+    color: blue;
+}
+
+a::after{
+    content:🚀 ;
+}
+

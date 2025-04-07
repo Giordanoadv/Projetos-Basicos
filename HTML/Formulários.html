@@ -1,0 +1,41 @@
+<p>o tipo submit deve estar dentro do formulário ele pegará o dados de todos os campos e enviar</p>
+<br>
+<p>O action é para onde ue vou enviar meus dados quando meus dados forem submetidos</p>
+<br>
+<p>metodo get você envia os dados para o servidor e obtem uma resposta e os dados do formulário vão para a url assim que a internet funciona no método post ele envia os dados por debaixo dos panos com formulário para preencher cartão de crédito não fica no url</p>
+<br>
+<br>
+<P>Se tiver um campo do tipo file e quiser enviar os dado deve colocar no form enctype="form-data" para avisar o servidor que seu formulário
+    está indo um arquivo
+</P>
+<br>
+<form action="" method="get" enctype="multipart/form-data">
+    <h1>Digite seu endereço</h1>
+    <br>
+    <label>
+        Rua:
+        <input type="text" name="Rua"/>
+
+    </label>
+
+    <label>
+       Número:
+       <input type="number" name="numero" autocomplete="cc-number"/>
+
+       
+
+
+    </label>
+
+    <label>
+        Email:
+        <input type="email" name="email"/>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar Dados</button>
+
+    </label>
+ 
+
+
+
+</form>
