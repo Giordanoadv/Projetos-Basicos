@@ -49,3 +49,19 @@ const Giordano = {
 
 console.log(Giordano.age)
 console.log(Giordano.adress.city)
+
+// para alterar no const você pode alterar um detalhe interno colocando o objeto.objeto.objeto = alteração
+
+Giordano.age = 29
+
+console.log(Giordano)
+
+//  null e undefined
+// o null é quando voc~e decide que algo vai ser nulo o undefined é quando ocorre uma cagada
+
+const user {
+       name: Giordano,
+       age: 30,
+       NomedoConjuge: null,
+}
+
